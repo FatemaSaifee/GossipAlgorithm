@@ -109,6 +109,42 @@ For both graphs:
   - Gossip: 2_000
   - Push sum: 5_000
 
+## Node Failure Observation
+
+### Explanation
+
+- For rand2D, Gossip Algorithm for network size of 400, observations were recorded in case of no failure.
+- The control parameter for the experiment was taken as the number of failed nodes.
+- Experimentally numbers of nodes failed were taken as:
+    [ 5, 8, 10, 12, 15, 20]
+- Convergence time in all the above cases was noted and plotted for analysis.
+
+
+### Graph
+
+![Gossip Algorithmt](https://github.com/FatemaSaifee/GossipAlgorithm/blob/master/topologies/images/nodeFailure.png "Logo Title Text 1")
+
+
+#### Observations Table:
+
+
+Active Nodes | Failed Nodes | Convergence Time(ms)
+| ----------:| ----------:| ----------:|
+400 | 0 | 219
+390 | 10 | 281
+370 | 30 | 188
+340 | 60 | 78
+300 | 100 | 62
+250 | 150 | 47
+200 | 200 | 32
+
+### Observations:
+
+1. Initially when a few nodes fail, the time for convergence increases until a given number of node failures.
+2. After this point, that is when the number of node failures increases beyond this point, the convergence time decreases linearly as the number of nodes to transmit to, also decrease.
+3. As we can see, when the number of failed nodes becomes half of the total number of nodes, the convergence time decreases drastically.
+
+
 
 **Note:**
 * Please refer to Report.pdf for how to run and detailed analysis of Gossip and Push-Sum simulators.
