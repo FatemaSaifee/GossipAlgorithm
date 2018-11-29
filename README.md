@@ -65,7 +65,7 @@ For both graphs:
 - X - Axis -> Size of network (number of nodes)
 - Y - Axis -> Convergence time (in milliseconds)
 
-![Gossip Algorithmt](https://github.com/FatemaSaifee/GossipAlgorithm/topologies/images/g1 "Logo Title Text 1")
+![Gossip Algorithmt](https://github.com/FatemaSaifee/GossipAlgorithm/blob/master/topologies/images/g1.png "Logo Title Text 1")
 
 
 #### Inference from Gossip Algorithm graph:
@@ -76,7 +76,7 @@ For both graphs:
 4. The convergence time for **2D** and Torus topologies increase in a clear linear fashion to the order of **y ≈ kn**, where k is any constant.
 5. An important observation in case of **Imperfect Line** is that the convergence time does not always increase with increase in number of nodes. As the third neighbor is picked randomly from the list of all nodes, the convergence time is heavily dependant on which node is picked to be the third neighbor.
 
-![Push-Sum Algorithmt](https://github.com/FatemaSaifee/GossipAlgorithm/topologies/images/g2 "Logo Title Text 1")
+![Push-Sum Algorithmt](https://github.com/FatemaSaifee/GossipAlgorithm/blob/master/topologies/images/g2.png "Logo Title Text 1")
 
 
 ### Inference from Push Sum Algorithm graph:
